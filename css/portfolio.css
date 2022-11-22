@@ -1,0 +1,121 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background:linear-gradient(45deg, pink,palevioletred );
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    /* line-height: 30px; */
+    /* background-color: palevioletred; */
+     /* width: 80%;
+     margin-left: 100px; */
+}
+.big-container{
+    width: 70%;
+    background-color: #FAF9F6;
+    margin: auto;
+    border-radius: 20px;
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10px;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+}
+ul li{
+    margin-right: 10px;
+    
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+}
+ul li a.active{
+    border-bottom: 2px solid pink;
+    padding-bottom: 10px;
+    color: pink;
+}
+.logo{
+    display: flex;
+}
+.logo img{
+    margin: 10px;
+    border-radius: 50%;
+   background-color: rgb(255, 192, 203,0.5);
+}
+.logo h2{
+    align-self: center;
+    
+}
+.about{
+    display: flex;
+    margin: 30px;
+}
+.about img{
+    background: linear-gradient(to left, rgb(135, 206, 235, 0.5), rgb(255, 192, 203,0.5), rgb(240, 128, 128,0.5));
+    border-radius:0 50% 0 50%;
+    margin-right: 30px;
+}
+.about .intro{
+    align-self: center;
+}
+.more{
+    display: flex;
+   margin: 30px;
+}
+.career{
+    width: 50%;
+    margin-right: 20px;
+}
+.career .skill-item{
+    border: 2px solid pink;
+    box-shadow: 2px 2px 2px#4444;
+    padding: 10px;
+    border-radius: 10px;
+}
+.skills{
+    width: 50%;
+}
+.skill{
+    background-color: slategrey;
+    height: 30px;
+    margin-bottom: 20px;
+}
+#html{
+    background-color: lightgreen;
+    width:90%;
+    height: 30px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 5px;
+}
+#css{
+    background-color: palevioletred;
+    height: 30px;
+    width: 80%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 5px;
+}
+#js{
+    background-color: aqua;
+    height: 30px;
+    width: 50%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 5px;
+}
+#php{
+    background-color: chocolate;
+    width: 10%;
+    height: 30px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 5px;
+}
